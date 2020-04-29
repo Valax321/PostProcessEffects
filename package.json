@@ -1,0 +1,11 @@
+{
+  "name": "com.valax321.postprocessing",
+  "displayName": "Post Process Effects",
+  "version": "1.0.0",
+  "unity": "2018.1",
+  "description": "Additional post processing effects for the Post Processing Stack V2.",
+  "dependencies": {
+    "com.unity.postprocessing": "2.3.0"
+  },
+  "type": "library"
+}

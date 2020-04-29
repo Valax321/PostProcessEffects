@@ -1,0 +1,5 @@
+{
+  "displayName": "Dynamic Fog Example",
+  "description": "An example scene for the dynamic fog effect",
+  "createSeparatePackage": false
+}
