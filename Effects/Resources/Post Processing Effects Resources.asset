@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3144d52b1f3604f768f7b3723f6722ca, type: 3}
+  m_Name: Post Processing Effects Resources
+  m_EditorClassIdentifier: 
+  m_shaders:
+  - {fileID: 4800000, guid: ad31368b0af914fb3bb6311929dd9282, type: 3}
+  - {fileID: 4800000, guid: ebf627fd47e0542fcb963defd919589f, type: 3}
+  - {fileID: 4800000, guid: 06225c5000d5249e5b59fbd418880422, type: 3}
+  - {fileID: 4800000, guid: 7de6b025d47da4f45aa656708dfb1325, type: 3}
