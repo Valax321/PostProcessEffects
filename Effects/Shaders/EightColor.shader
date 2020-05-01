@@ -18,7 +18,6 @@
         // Input sample
         const uint2 pss = (uint2)(input.texcoord * _ScreenParams.xy) / _Downsampling;
         
-        //float4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, pss * _Dithering);
         float4 col = _MainTex.Load(int3(pss * _Downsampling, 0)); // Dafuq
 
         // Linear -> sRGB

@@ -13,6 +13,11 @@ A dynamic, blendable fog effect defined using a colour gradient.
 
 An 8-color palette effect with dithering and a low-res look.
 
+### Palette
+![Palette](Documentation~/images/palette.jpg)
+
+An alternative palette effect that uses LUTs to define colour palettes. Uses the same dithering and settings as Eight Color.
+
 ### Outline
 ![Outline Effect](Documentation~/images/outline.jpg)
 
