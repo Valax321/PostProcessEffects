@@ -32,6 +32,11 @@ namespace Valax321.PostProcess.Runtime
 
     internal sealed class PostProcessOutlineRenderer : PostProcessEffectRenderer<PostProcessOutline>
     {
+        public override DepthTextureMode GetCameraFlags()
+        {
+            return DepthTextureMode.DepthNormals | DepthTextureMode.Depth;
+        }
+
         public override void Render(PostProcessRenderContext context)
         {
             var sheet = context.propertySheets.Get(Shader.Find("Hidden/Roystan/Outline Post Process"));
