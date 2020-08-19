@@ -1,4 +1,5 @@
 # Post Process Effects
+[![openupm](https://img.shields.io/npm/v/com.valax321.postprocessing?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.valax321.postprocessing/)
 
 This package contains a number of post processing effects compatible with Unity's post processing stack v2.
 
@@ -24,7 +25,7 @@ An alternative palette effect that uses LUTs to define colour palettes. Uses the
 A post-process outline effect with customisable colour.
 
 ## Usage
-The effects can be installed through the Unity package manager, either as a git package or a custom repository source.
+The effects can be installed through the Unity package manager, or OpenUPM.
 
 ## License
 Code in this repository is released under the MIT license. See LICENSE for more information.
